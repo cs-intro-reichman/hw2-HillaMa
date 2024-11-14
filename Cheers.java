@@ -15,7 +15,7 @@ public class Cheers {
                 }
                 i++;
             }
-            System.err.println("What does that spell?");
+            System.out.println("What does that spell?");
             while(cheerTime > 0) {
                 System.err.println(name + "!!!");
                 cheerTime--;
