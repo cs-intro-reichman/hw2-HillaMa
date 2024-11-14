@@ -7,7 +7,7 @@ public class Collatz {
 		int curNum = 1;
 		int counter = 1;
 		if(mode.equals("c")) {
-			System.out.println("Every one of the first "+ N + " halistone sequences reached 1.");
+			System.out.println("Every one of the first "+ N + " hailstone sequences reached 1.");
 		}
 		else {
 			for(int i = 1 ; i <= N ; i++) {
@@ -29,7 +29,7 @@ public class Collatz {
 				curNum = i + 1;
 				counter = 1;
 			}
-			System.out.println("Every one of the first "+ N + " halistone sequences reached 1.");
+			System.out.println("Every one of the first "+ N + " hailstone sequences reached 1.");
 		}
 	}
 }
