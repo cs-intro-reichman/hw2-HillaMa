@@ -2,8 +2,9 @@
 public class Cheers {
         public static void main(String[] args) {   
             String name = args[0];
+            name = name.toUpperCase();
             int cheerTime = Integer.parseInt(args[1]);
-            String addAn = "aefhilmnorsxAEFHILMNORSX";
+            String addAn = "AEFHILMNORSX";
             int i = 0;
             while(i < name.length()) {
                 if(addAn.indexOf(name.charAt(i)) == -1) {

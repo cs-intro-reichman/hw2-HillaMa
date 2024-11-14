@@ -30,7 +30,7 @@ public class Collatz {
 				counter = 1;
 			}
 			System.out.println();
-			System.out.println("Every one of the first "+ N + " halistone sequences reached 1");
+			System.out.println("Every one of the first "+ N + " halistone sequences reached 1.");
 		}
 	}
 }
